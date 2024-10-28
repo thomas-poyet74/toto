@@ -1,0 +1,94 @@
+body {
+	background-color: Grey;
+	color: Black;
+	font-family: initial;
+	font-size: 24px;
+}
+
+H1 {
+	color: black;
+	font-family: Courier ;
+	font-size: 16;
+
+}
+
+H2{
+	color: greenyellow;
+	font-family: courier;
+	font size:16px;
+}
+ .container { width : 700px;
+ 	margin :40px auto;
+  }
+@media (max-width:700px){
+	.container{
+		width: 	600px;
+
+	}
+}
+
+
+@media (max-width:500px){
+	.container{
+		width: 400px;
+
+	}
+}
+
+
+
+
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+border border-radius: 4px;
+margin: 20px  0px;
+Text-align : center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+
+.btn-blue{
+	background-color: darkcyan;
+	color: white;
+	padding:15px 20px;
+    border-radius:4px ;
+
+
+}
+.btn-blue:hover{
+	background-color: darkcyan;
+	color: white;
+
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li{
+	display: inline;
+	padding:10px;
+
+}
+
+.list-inline i{
+	front-size:50px;
+	color: darkcyan;
+}
+
+
+
+
+
+
+
+
